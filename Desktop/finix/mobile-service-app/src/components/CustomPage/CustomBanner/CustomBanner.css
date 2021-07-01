@@ -1,0 +1,6 @@
+.banner-images {
+  background: url(../../../images/main-banner2.jpg) no-repeat fixed top center;
+  background-size: cover;
+  padding-bottom: 50px;
+  overflow: hidden;
+}

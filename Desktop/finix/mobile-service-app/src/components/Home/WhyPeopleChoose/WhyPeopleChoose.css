@@ -1,0 +1,193 @@
+.why-people-choose-us {
+  background: #f9fafb;
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.why-choose h6 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #e83b3e;
+}
+.why-choose h2 {
+  font-weight: 500;
+  font-size: 32px;
+  padding: 6px 0;
+}
+.why-choose p {
+  font-size: 16px;
+  color: #606060;
+  margin-bottom: 38px;
+  line-height: 27px;
+}
+.why-people-choose-us-img {
+  position: relative;
+}
+
+.for-youtube-logo {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.for-youtube-logo {
+  position: absolute;
+  left: 284px;
+  bottom: 78px;
+}
+.for-youtube-logo a {
+  display: inline-block;
+  width: 67px;
+  height: 67px;
+  line-height: 70px;
+  text-align: center;
+  background: #fff;
+  font-size: 46px;
+  border-radius: 50%;
+  color: #e83b3e;
+  position: relative;
+}
+
+.for-youtube-logo a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #e83b3e;
+  border-radius: 50%;
+  animation: 1s ease-in videoAnimation infinite;
+}
+@keyframes videoAnimation {
+  0%,
+  25% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+.the-mother-box {
+  background: #fff;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.the-mother-box:hover {
+  transform: translateY(-10px);
+}
+
+.the-mother-box::before {
+  content: "";
+  position: absolute;
+  top: -144px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 90%;
+  height: 80%;
+  background: #fdebeb;
+  border-radius: 50%;
+}
+
+.the-garentee-logo span {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  color: #e73d40;
+  font-size: 32px;
+  background: #fff;
+  line-height: 76px;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 1;
+  transition: 0.4s;
+}
+.the-garentee-logo {
+  position: relative;
+  top: 20px;
+  margin-bottom: 6px;
+}
+.the-box-header p {
+  color: #767676;
+}
+.the-mother-box:hover .the-garentee-logo span {
+  color: #fff;
+  background: #e83b3e;
+}
+
+.our-resposibility h5 {
+  font-weight: 500;
+  font-size: 18px;
+  padding: 6px 0;
+}
+.our-resposibility p {
+  font-size: 17px;
+  color: #767676;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+.the-mother-box.mt4 {
+  margin-top: -25px;
+}
+.the-box-header h5 {
+  font-size: 26px;
+  padding: 15px 0;
+}
+.our-resposibility h5 {
+  font-weight: 500;
+  font-size: 25px;
+  padding: 6px 0;
+}
+.the-mother-box.mt4 {
+  margin-top: -10px;
+}
+.the-garentee-logo {
+  position: relative;
+  top: 30px;
+  margin-bottom: 6px;
+}
+
+@media only screen and (max-width: 500px) {
+  .for-youtube-logo {
+    position: absolute;
+    left: 233px;
+    bottom: 54px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .for-youtube-logo {
+    position: absolute;
+    left: 186px;
+    bottom: 32px;
+  }
+}
+@media only screen and (max-width: 405px) {
+  .for-youtube-logo {
+    position: absolute;
+    left: 156px;
+    bottom: 18px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .for-youtube-logo {
+    position: absolute;
+    left: 134px;
+    bottom: 7px;
+  }
+}
+
+.why-people-choose-us-img {
+  margin-bottom: 23px;
+}

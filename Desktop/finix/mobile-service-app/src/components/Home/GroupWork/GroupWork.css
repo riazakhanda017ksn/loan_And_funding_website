@@ -1,0 +1,51 @@
+.group-work span {
+  display: inline-block;
+  padding: 11px 0;
+  font-weight: 400;
+  color: #e83b3e;
+  font-size: 17px;
+}
+
+.group-work h2 a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 29px;
+  color: #111;
+  font-weight: 500;
+  padding: 2px 0;
+  transition: 0.4s;
+}
+
+.group-work a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  color: #111;
+  padding: 3px 0;
+  transition: 0.4s;
+}
+
+.container-of-group-work:hover .group-work a {
+  letter-spacing: 2px;
+  color: #e73d40;
+}
+
+.container-of-group-work:hover .group-work h2 a {
+  letter-spacing: 0;
+  color: #111;
+}
+
+.group-work h2 a:hover {
+  color: #e83b3e !important;
+}
+.group-work {
+  overflow-x: hidden;
+  background: #fafafa;
+  padding: 40px 0;
+}
+@media only screen and (max-width: 990px) {
+  .margin-need {
+    margin-top: 6px;
+  }
+}

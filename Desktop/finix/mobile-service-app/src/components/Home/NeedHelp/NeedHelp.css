@@ -1,0 +1,14 @@
+.need-help-bg {
+  padding: 100px 0;
+  background: #fff;
+}
+.need-width {
+  width: 100%;
+  outline: none;
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 15px;
+}
+.need-width:focus {
+  border: 2px solid #ff4f5b;
+}

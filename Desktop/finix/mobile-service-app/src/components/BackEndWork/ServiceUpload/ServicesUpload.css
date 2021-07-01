@@ -1,0 +1,124 @@
+.content-upload-section {
+  background: url(../../../images/bg-3.jpg) no-repeat fixed top center;
+  background-size: cover;
+  padding: 200px 0;
+  overflow: hidden;
+  position: relative;
+}
+.content-upload-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, black, #00000021);
+}
+.caption-for-admin {
+  position: relative;
+  color: rgb(46, 46, 46);
+  text-transform: capitalize;
+}
+.caption-for-admin h1 {
+  font-weight: 600;
+  font-size: 47px;
+  line-height: 70px;
+  color: #fff;
+}
+
+.content-upload {
+  padding: 70px 0;
+  background: #f5f4ef;
+  overflow: hidden;
+}
+.content-form h3 {
+  padding-bottom: 28px;
+  color: #fff;
+}
+
+.content-form input:focus {
+  border: 2px solid #ea4f52 !important;
+}
+.content-form textarea:focus {
+  border: 2px solid #ea4f52 !important;
+}
+.content-form textarea {
+  background: none;
+  outline: none;
+  width: 100%;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 13px;
+  font-size: 14px;
+  border: 1px solid rgb(185, 185, 185) !important;
+}
+.content-form button {
+  border: none !important;
+  position: relative !important;
+  display: inline-block;
+  padding: 14px 40px;
+  border-radius: 5px;
+  color: #fff;
+  transition: 0.4s;
+  z-index: 111;
+  background-color: #e73a3e !important;
+  border-color: #e73a3e;
+  text-decoration: none;
+  font-size: 15px;
+  outline: none;
+}
+.content-form button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #000000;
+  transition: 0.4s;
+  color: #fff !important;
+  z-index: -1;
+  border-radius: 5px;
+}
+.content-form button:hover {
+  border-color: rgb(255, 255, 255) !important;
+  z-index: 999;
+}
+
+.content-form button:hover::after {
+  width: 100%;
+}
+.content-form input {
+  display: inline-block;
+  width: 100%;
+  background: none;
+  margin-bottom: 21px;
+  border: 1px solid rgb(185, 185, 185) !important;
+  outline: none;
+  padding: 14px 14px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.service-image img {
+  height: 105vh;
+}
+@media only screen and (max-width: 990px) {
+  .service-image img {
+    height: 100%;
+  }
+  .extra-edit p {
+    width: 100%;
+    color: #fff;
+  }
+}
+.caption-for-admin p {
+  font-size: 17px;
+  line-height: 33px;
+  padding-top: 6px;
+  font-weight: 400;
+  color: #fff;
+}
+.extra-edit p {
+  width: 57% !important;
+}

@@ -1,0 +1,153 @@
+.footer {
+  padding-top: 3px;
+  background: #111111;
+}
+
+.footer-img img {
+  margin-bottom: 23px;
+}
+
+.footer-description p {
+  color: #ffff;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.9rem;
+}
+.follow-us-in-footer ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  color: #fff;
+  font-weight: 500;
+  list-style: none;
+}
+.follow-us-in-footer ul li {
+  display: inline-block;
+  padding: 0 7px;
+}
+.follow-us-in-footer ul p {
+  display: inline;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.follow-us-in-footer ul li a {
+  color: #fff;
+  font-size: 18px;
+  padding: 0 7px;
+  margin-top: 10px;
+  display: inline-block;
+  transition: 0.4s;
+}
+
+.follow-us-in-footer ul li a:hover {
+  color: #e83b3e;
+}
+
+.sector-of-Quick-Links h3 {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 500;
+  border-bottom: 1px solid #dddddd26;
+  padding-bottom: 19px;
+}
+.quick-link-ul ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.quick-link-ul ul li {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.quick-link-ul ul li a {
+  text-decoration: none;
+  transition: 0.4s;
+  display: inline-block;
+  color: #f9fafb;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.quick-link-ul ul li a:hover {
+  color: #e83b3e;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.contact-footer-ul ul {
+  list-style: none;
+  padding-left: 0;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.contact-footer-ul ul li {
+  font-size: 16px;
+  margin-top: 18px;
+  font-weight: 400;
+  position: relative;
+  padding-left: 26px;
+}
+
+.contact-footer-ul ul li a {
+  display: block;
+  padding-top: 27px;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  padding-left: 10px;
+  transition: 0.4s;
+}
+
+.contact-footer-ul ul li a:hover {
+  color: #e93c3f;
+}
+
+.contact-footer-ul ul li:nth-child(1)::before {
+  content: "\f124";
+  font-weight: 600;
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  top: 2px;
+  left: -5px;
+  font-size: 20px;
+}
+
+.contact-footer-ul ul li:nth-child(2)::before {
+  content: "\f0e0";
+  font-weight: 600;
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  top: 26px;
+  left: -5px;
+  font-size: 20px;
+}
+.contact-footer-ul ul li:nth-child(3)::before {
+  content: "\f2a0";
+  font-weight: 600;
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  top: 15px;
+  left: -4px;
+  font-size: 31px;
+  transform: rotate(-45deg);
+}
+
+.footer-number-two.text-center {
+  border-top: 1px solid #dddddd2b;
+}
+.-footer-cap p {
+  margin-top: 11px;
+  color: #fff;
+  font-size: 18px;
+  color: #606060;
+}
+.-footer-cap a {
+  text-decoration: none;
+  font-weight: 600;
+  font-style: italic;
+  color: #eb0c0f;
+}
+.quick-list {
+  margin-top: 36px;
+}

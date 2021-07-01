@@ -1,0 +1,82 @@
+.bg {
+  overflow: hidden !important;
+  padding: 100px 0;
+  background: #fafafa;
+}
+.Review-section h2 {
+  font-size: 36px;
+  padding-bottom: 6px;
+}
+.Review-section span {
+  display: block;
+  color: rgb(234, 60, 63);
+  padding-bottom: 4px;
+}
+.Review-section p {
+  width: 44%;
+  text-align: center;
+  margin: auto;
+  line-height: 28px;
+  color: #767676;
+}
+.client-comment {
+  width: 46%;
+}
+.client-img {
+  width: 46%;
+}
+.flex-system-item {
+  display: flex !important;
+  justify-content: space-between;
+}
+.client-img img {
+  display: inline-flex;
+  height: 400px;
+  border-radius: 15%;
+}
+.client-comment p {
+  font-size: 23px;
+  line-height: 32px;
+  font-weight: 400;
+}
+.client-comment h6 {
+  color: #e83b3e;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.client-comment small {
+  font-size: 16px;
+  color: #767676;
+}
+
+@media only screen and (max-width: 990px) {
+  .client-comment {
+    width: 100%;
+  }
+  .client-img {
+    width: 100%;
+  }
+  .flex-system-item {
+    display: inline-block !important;
+    justify-content: space-between;
+  }
+  .client-img img {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .client-comment p {
+    font-size: 23px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: left;
+  }
+  .Review-section p {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    line-height: 28px;
+    color: #767676;
+    text-align: left;
+  }
+}

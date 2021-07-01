@@ -1,0 +1,100 @@
+.dxt-parts-of-our-company {
+  padding: 100px 0;
+}
+
+.Our-company-rules h2 {
+  font-weight: 500;
+  margin-bottom: 35px;
+  font-size: 36px;
+}
+.Our-company-rules-list ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.Our-company-rules-list ul li h3 {
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+.Our-company-rules-list ul li p {
+  color: #606060;
+  line-height: 1.7rem;
+}
+
+.Our-company-rules-list ul li {
+  position: relative;
+  margin-left: 50px;
+}
+
+.Our-company-rules-list ul li:nth-child(1)::before {
+  content: "\f0eb";
+  position: absolute;
+  top: -7px;
+  left: -52px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: #e83b3e;
+  background: #fff;
+  border-radius: 50%;
+}
+.Our-company-rules-list ul li:nth-child(2)::before {
+  content: "\f4d8";
+  position: absolute;
+  top: -7px;
+  left: -52px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: #e83b3e;
+  background: #fff;
+  border-radius: 50%;
+}
+.Our-company-rules-list ul li:nth-child(3)::before {
+  content: "\f084";
+  position: absolute;
+  top: -7px;
+  left: -52px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: #e83b3e;
+  background: #fff;
+  border-radius: 50%;
+}
+.Our-company-rules-list ul li:nth-child(4)::before {
+  content: "\f0c0";
+  position: absolute;
+  top: -7px;
+  left: -52px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: #e83b3e;
+  background: #fff;
+  border-radius: 50%;
+}
+.padding {
+  padding: 70px 0;
+}

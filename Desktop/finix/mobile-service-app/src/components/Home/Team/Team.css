@@ -1,0 +1,121 @@
+.expart-parts {
+  padding: 80px 0;
+  background: #fff !important;
+  overflow-x: hidden;
+}
+
+.Expart-people-details-social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.Expart-people-details-social ul li {
+  display: inline-block;
+  margin: 0 auto;
+  transition: 0.5s ease-in;
+  padding: 0 16px;
+}
+
+.Expart-people-details-social ul li a {
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #ddd;
+  display: inline-block;
+  color: #111;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: 0.4s;
+  position: relative;
+}
+.Expart-people-details-social ul li a:hover {
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #ddd;
+  display: inline-block;
+  color: rgb(248, 0, 0);
+  font-size: 20px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.Expart-people-details-social ul li a::before {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #0e0d0d;
+  animation: animation_for_slow_up_down 1s ease-in infinite;
+}
+
+@keyframes animation_for_slow_up_down {
+  0%,
+  25% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+/* .animation_for_slow_up_down ul li a:hover {
+  color: #e73d40;
+}
+.Expart-people-details .Expart-people-details-social ul li:nth-child(1) {
+  transition-delay: 0.2s;
+}
+.Expart-people-details .Expart-people-details-social ul li:nth-child(2) {
+  transition-delay: 0.3s;
+}
+.Expart-people-details .Expart-people-details-social ul li:nth-child(3) {
+  transition-delay: 0.4s;
+}
+.Expart-people-details .Expart-people-details-social ul li:nth-child(4) {
+  transition-delay: 0.5s;
+} */
+
+.Expart-people-details .Expart-people-details-social ul li {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(-60px);
+}
+
+.expert-people-name {
+  position: relative;
+  bottom: 19px;
+}
+.expert-people-name h4 {
+  color: #d91a1d;
+  font-size: 21px;
+}
+.expert-people-name p {
+  color: #767676;
+  font-size: 16px;
+}
+
+.team-management h6 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #e83b3e;
+}
+
+.team-management p {
+  font-size: 16px;
+  color: #606060;
+  margin-bottom: 38px;
+  line-height: 27px;
+}

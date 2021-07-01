@@ -1,0 +1,225 @@
+.memberUpload {
+  background: url(../../../images/photo-1582151767854-e00a6b3151c6.jpg)
+    no-repeat fixed top center;
+  background-size: cover;
+  padding: 200px 0;
+  overflow: hidden;
+  position: relative;
+}
+.memberUpload::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.61);
+}
+.member-caption {
+  position: relative;
+}
+.member-caption h6 {
+  position: relative;
+  color: #e63a3e;
+  padding-bottom: 6px;
+}
+.member-caption h3 {
+  font-size: 34px;
+  font-weight: 500;
+  padding-bottom: 3px;
+}
+.member-caption p {
+  width: 100%;
+  line-height: 32px;
+  color: #767676;
+  font-size: 17px;
+  font-weight: 400;
+}
+.member-caption h1 {
+  position: relative;
+  color: #fafafa;
+  line-height: 58px;
+  font-size: 42px;
+  font-weight: 700;
+}
+.member-caption p {
+  width: 90%;
+  line-height: 32px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #b4b4b4;
+  margin-top: 13px;
+}
+.member-caption button {
+  border: none !important;
+  position: relative !important;
+  display: inline-block;
+  padding: 16px 55px;
+  border-radius: 5px;
+  color: #fff;
+  transition: 0.4s;
+  z-index: 111;
+  background-color: #e73a3e !important;
+  border-color: #e73a3e;
+  text-decoration: none;
+  font-size: 15px;
+  outline: none;
+}
+.member-caption button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ffffff;
+  transition: 0.4s;
+  color: rgb(0, 0, 0) !important;
+  z-index: -1;
+  border-radius: 5px;
+}
+.member-caption button:hover {
+  border-color: rgb(255, 255, 255) !important;
+  z-index: 999;
+  color: #e63a3e !important;
+}
+
+.member-caption button:hover::after {
+  width: 100%;
+}
+
+.bg-white {
+  overflow: hidden !important;
+  background-color: #fff;
+}
+.member-caption {
+  overflow: hidden;
+}
+.need-overflow {
+  overflow-x: hidden;
+}
+.adding-member-from {
+  padding: 60px 0 !important;
+}
+
+.Xpart-people-upload-caption span {
+  color: #e85035;
+  padding-bottom: 7px;
+  display: block;
+  font-size: 16px;
+}
+.Xpart-people-upload-caption h2 {
+  font-size: 36px;
+  padding-bottom: 4px;
+}
+.Xpart-people-upload-caption p {
+  width: 48%;
+  margin: 0 auto;
+  line-height: 27px;
+  color: #767676;
+}
+@media only screen and (max-width: 990px) {
+  .Xpart-people-upload-caption p {
+    line-height: 27px;
+    color: #767676;
+    width: 100%;
+  }
+}
+.adding-member {
+  margin-top: 33px;
+}
+.container-for-form input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+}
+.custom-edit {
+  border-bottom: 2px solid #ddd;
+  padding-top: 2px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.custom-edit::before {
+  content: "";
+  position: absolute;
+  top: 28px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(45deg, #f53252, #337fd7);
+  transition: 0.3s;
+}
+.custom-edit:hover:before {
+  width: 100%;
+}
+.adding-member button {
+  border: none !important;
+  position: relative !important;
+  display: inline-block;
+  padding: 14px 40px;
+  border-radius: 5px;
+  color: #fff;
+  transition: 0.4s;
+  z-index: 111;
+  background-color: #e73a3e !important;
+  border-color: #e73a3e;
+  text-decoration: none;
+  font-size: 15px;
+  outline: none;
+}
+
+.adding-member button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #000000;
+  transition: 0.4s;
+  color: #fff !important;
+  z-index: -1;
+  border-radius: 5px;
+}
+.container-for-form input.adding-member button:hover {
+  border-color: rgb(255, 255, 255) !important;
+  z-index: 999;
+}
+
+.adding-member button:hover::after {
+  width: 100%;
+}
+
+/* ///// */
+
+.custom-edit-for-file {
+  border-bottom: 2px solid #ddd;
+  position: relative;
+  transition: 0.3s;
+  padding-bottom: 5px;
+}
+.custom-edit-for-file::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(45deg, #f53252, #337fd7);
+  transition: 0.4s;
+}
+.custom-edit-for-file:hover::before {
+  width: 100%;
+}
+.custom-edit-for-file::before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(45deg, #f53252, #337fd7);
+  transition: 0.4s;
+}

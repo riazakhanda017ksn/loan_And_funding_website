@@ -1,0 +1,97 @@
+.sinInSection input {
+  width: 100%;
+  margin-bottom: 17px;
+  padding: 14px;
+  border: 1px solid #ddd;
+  outline: none;
+  border-radius: 2px;
+  background: none;
+}
+.sinInSection input:focus {
+  width: 100%;
+  margin-bottom: 17px;
+  padding: 14px;
+  border: 1px solid rgb(255, 0, 0);
+  outline: none;
+  border-radius: 2px;
+  background: none;
+}
+
+.sinInSection button {
+  border: none !important;
+  position: relative !important;
+  display: inline-block;
+  padding: 14px 47px;
+  border-radius: 5px;
+  color: #fff;
+  transition: 0.4s;
+  z-index: 111;
+  background-color: #e73a3e !important;
+  border-color: #e73a3e;
+  text-decoration: none;
+  font-size: 15px;
+  outline: none;
+}
+.sinInSection button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #000000;
+  transition: 0.4s;
+  color: #fff !important;
+  z-index: -1;
+  border-radius: 5px;
+}
+.sinInSection button:hover {
+  border-color: rgb(255, 255, 255) !important;
+  z-index: 999;
+}
+
+.sinInSection button:hover::after {
+  width: 100%;
+}
+.text-customize-option span {
+  color: #767676;
+}
+.w-100.mt-2.text-customize-option.py-1 a {
+  color: #dd2424;
+}
+
+.img-sizing {
+  height: 30px;
+}
+
+.div-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.forget-password {
+  position: relative;
+  top: 24px;
+}
+.forget-password a {
+  color: #df2f2f;
+  text-decoration: none;
+}
+.w-100.text-customize-option a {
+  color: #ec3636;
+}
+a.border-bottom {
+  border-bottom: 1px solid #df3232 !important;
+  position: relative;
+  top: 2px;
+}
+@media only screen and (max-width: 361px) {
+  .text-small a {
+    font-size: 13px;
+  }
+  .text-customize-option span {
+    font-size: 13px;
+  }
+  .text-customize-option a {
+    font-size: 13px;
+  }
+}
